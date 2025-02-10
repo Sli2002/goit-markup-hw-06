@@ -512,6 +512,7 @@ button {
 .about-containerer {
     display: flex;
     align-items: center;
+
 }
 
 .about-list {
@@ -519,10 +520,12 @@ button {
     flex-wrap: wrap;
     gap: 72px;
 
+
 }
 
 .about-item {
     width: 100%;
+
 }
 
 .about-box {
@@ -622,6 +625,7 @@ button {
     display: flex;
     gap: 72px;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 0 12px;
 }
@@ -1049,7 +1053,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 408px;
+    width: 408px;
     min-height: 584px;
     border-radius: 4px;
     background-color: #fcfcfc;
